@@ -1,0 +1,137 @@
+@font-face{
+    font-family: 'Mi fuente';
+    src: url ('Pacifico-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    font-family:'Mi fuente', Arial, Helvetica;
+    
+}
+
+.contenedor{
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+
+}
+
+header{
+   background-color: aqua; 
+    width: 100%;
+    color: white;    
+}
+
+header .logo{
+    margin: 16px;
+}
+
+header .logo h1{
+    color:blue;
+    font-family: 'Titulo', Arial, Helvetica;
+    font-size: 45ox;
+}
+
+header nav{
+width: 100%;
+}
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+}
+
+nav ul{
+padding: 0;
+}
+
+nav ul li{
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li:hover{
+    background-color: cornsilk;
+
+}
+
+nav ul li a{
+text-decoration: none;
+
+}
+.section{
+    background-color: rgb(145, 255, 0);
+    float: left;
+    width: 80%;
+    }
+
+
+.section .imagen{
+    width: 100%;
+}
+
+.section .imagen img {
+    width: 100%;
+    vertical-align: top;
+}
+.section .articulo{
+    padding: 40px;
+}
+
+.section .articulo h1{
+    margin-bottom: 16px;
+    color: green;
+}
+.section .articulo p{
+    line-height: 12px;
+    margin-bottom: 16px;
+}
+
+aside {
+    background-color: green;
+    float: left;
+    color:white;
+    width: 20%;
+}
+aside .publicidad{
+    margin-bottom: 16px;
+    padding: 8px;
+}
+aside .publicidad p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+aside .publicidad a{
+    color: orange;
+    font-size: 12px;
+}
+
+
+footer{
+    
+    background-color: rgb(60, 36, 148);
+    color: goldenrod;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width:800px){
+    .section{
+        width: 100%;
+    }
+
+    aside{
+        float: left;
+        width: 100%;
+    }
+}
